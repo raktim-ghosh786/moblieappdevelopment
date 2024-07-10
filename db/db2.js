@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
+const mongo_uri=process.env.mongo_uri || 'mongodb://127.0.0.1:27017/raktimdb'
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/raktimdb')
+    .connect(mongo_uri)
     .then(() => console.log("Connected"))
     .catch(() => console.log("Error"))
 
