@@ -14,7 +14,7 @@ app.post('/login', async (req, res) => {
 
     const result = await db.find({"email":email,"pass":pass})
     if (result.length == 1){
-        res.json({msg:"Login Successfull", status: 200 })
+        res.json({msg:"Login Successful", status: 200 })
     }else{
         res.json({msg:"Login Failed", status: 200 })
     }

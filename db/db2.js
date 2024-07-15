@@ -2,7 +2,11 @@ const mongoose = require('mongoose');
 const mongo_uri=process.env.mongo_uri || 'mongodb://127.0.0.1:27017/raktimdb'
 
 mongoose
-    .connect(mongo_uri)
+    .connect(mongo_uri, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+        useCreateIndex: true
+    })
     .then(() => console.log("Connected"))
     .catch(() => console.log("Error"))
 
