@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">VehicleHealthMonitor</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <string name="engine_health_ok">Engine Health: OK</string>
+    <string name="oil_level_full">Oil Level: Full</string>
+    <string name="tire_pressure_normal">Tire Pressure: Normal</string>
+    <string name="report_issue">Report Issue</string>
+    <string name="request_maintenance">Request Maintenance</string>
+    <string name="request_maintenanc">Request Maintenance</string>
+    <string name="report_issu">Report Issue</string>
+
+</resources>
